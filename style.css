@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=EB+Garamond&family=Marck+Script&family=Monda&family=Patua+One&family=Poppins:wght@400;700&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: rgb(24, 5, 46);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(61, 22, 105);;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(236, 188, 255);
+    font-size: 1.02rem;
+}
+
+.left{
+    font-size: 30px;
+}
+
+/* First Section */
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.leftSection .btn{
+    padding: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.name{
+    color: rgb(190, 116, 255);
+}
+
+.profession, .intro{
+    font-size: 41px;
+}
+
+#element{
+    color: rgb(190, 116, 255);
+}
+
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+/* Second Section */
+.secondSection{
+    max-width: 80%;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.text-grey{
+    color: gray;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 126px;
+}
+
+/* Working expierence section */
+.image-top{
+    width: 20px;
+    position: relative;
+    top: -25px;
+    left: -9px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 64px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 68px;
+    color: gray;
+    width: 190px;
+    font-size: 10px;
+}
+
+/* Footer section */
+footer{
+    background-color: blueviolet;
+    height: 230px;
+}
+
+.footer{
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    width: 220px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    font-size: 15px;
+    color: #9c97f1;
+    padding: 20px 0;
+}
+
+/* Making it responsive */
+@media screen and (max-width: 1191px) {
+
+    .firstSection{
+        flex-direction: column-reverse;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+    }
+  
+}
